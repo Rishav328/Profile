@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aishwaray/Rishav Tiwary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+<style>
+body {
+  color:white;
+  background-color:#252525;
+  padding:10px;
+}
+
+.profile-photo {
+  border-radius:70%;
+  border:3px solid white;
+  box-shadow:3px 0px 13px 3px grey;
+}
+
+.myself {
+  background-color:white;
+  text-align:center;
+  padding:10px;
+  margin:7px;
+  color:black;
+  border-radius:11px;
+  box-shadow:3px 2px 3px black;
+}
+
+p {
+  text-align:justify;
+  padding:10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:11px;
+  margin:0;
+}
+
+h2 {
+  font-family: 'Comforter', cursive;
+  font-size:50px;
+  margin:10px;
+}
+</style>
+</head>
+  <body>
+    <div class="myself">
+      <img class="profile-photo" src="https://www.dropbox.com/s/9elt9ku8ypk4wd8/img_20211201_190051.jpg?dl=1" height="50%" width="50%"/><br/>
+      <h2 id="app">Rishav Tiwary</h2>
+      <p>
+        Hi there! first of all thanks for visiting here! Myself 
+        Aishwaray Tiwary! I'm from Jamshedpur! I'm a 11th std
+        math science student in Central Public School(CPS), after 
+        few months I'll be in 12th in Year 2022!
+      </p>
+      <p>
+        I love the art of programming, I love it because it 
+        teaches you how to think and how to use your logics
+        to solve real life problems! I have worked with many
+        languages like Java, Python, JavaScript, C#, Kotlin,
+        swift and many more! I mostly use Python and JavaScript
+        ! I'm not a designer, but I have tried to make this
+        website attractive!
+      </p>
+    </div>
+  <script>
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Rishav Tiwary')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Aishwaray Tiwary')
+    .pauseFor(2500)
+    .start();
+  </script>
+  </body>
+</html>
