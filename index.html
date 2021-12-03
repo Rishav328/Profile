@@ -31,10 +31,6 @@ body {
   color:black;
   border-radius:11px;
   box-shadow:3px 2px 3px black;
-  position: fixed;
-  left: 50%;
-  top:50%;
-  transform: translateX(-50%, -50%);
 }
 
 p {
@@ -50,9 +46,16 @@ h2 {
   font-size:50px;
   margin:10px;
 }
+#bday {
+      position: fixed;
+      left: 50%;
+      top:50%;
+      transform: translateX(-50%, -50%);
+}
 </style>
 </head>
   <body>
+    <div id="bday">
     <div class="myself">
       <img class="profile-photo" src="https://www.dropbox.com/s/9elt9ku8ypk4wd8/img_20211201_190051.jpg?dl=1" height="50%" width="50%"/><br/>
       <h2 id="app">Rishav Tiwary</h2>
@@ -71,7 +74,7 @@ h2 {
         ! I'm not a designer, but I have tried to make this
         website attractive!
       </p>
-    </div>
+    </div></div>
   <script>
 var app = document.getElementById('app');
 
